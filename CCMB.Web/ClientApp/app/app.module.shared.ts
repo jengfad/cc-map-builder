@@ -10,6 +10,8 @@ import { HomeComponent } from './components/home/home.component';
 import { FetchDataComponent } from './components/fetchdata/fetchdata.component';
 import { CounterComponent } from './components/counter/counter.component';
 
+import { NgMaterialConfig } from './configs/ng.material.config';
+
 @NgModule({
     declarations: [
         AppComponent,
@@ -19,6 +21,7 @@ import { CounterComponent } from './components/counter/counter.component';
         HomeComponent
     ],
     imports: [
+        NgMaterialConfig,
         CommonModule,
         HttpModule,
         FormsModule,
