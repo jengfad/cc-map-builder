@@ -5,6 +5,9 @@
   "scripts": {
     "test": "karma start ClientApp/test/karma.conf.js"
   },
+  "nodeSassConfig": {
+    "binaryPath": "C:/jennifer.fadriquela/Sandbox/cc-map-builder/CCMB.Web/misc/sass-binary/v3.10.1/win32-x64-48_binding.node"
+  },
   "dependencies": {
     "@angular/animations": "4.2.5",
     "@angular/cdk": "^2.0.0-beta.8",
